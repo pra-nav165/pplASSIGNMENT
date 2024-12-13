@@ -1,0 +1,6 @@
+time=int(input("give time in 24hr format:- "))
+if time< 12 : print("good morning")
+elif 12<=time<=16:print("good after")
+elif 16<time<=20:print("good evening")
+elif 20<time<=24:print("good night")
+else:print(" RIP")
